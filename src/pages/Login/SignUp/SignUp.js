@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Form, Modal } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfile } from "react-firebase-hooks/auth"
 
@@ -9,10 +9,13 @@ import './SignUp.css'
 import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
 import googleLogo from '../../../images/logo/google-logo.png'
+import dentistLogo from '../../../images/dentist/how-to-become-a-dentist.jpg'
 
 
 const SignUp = () => {
     const navigate = useNavigate()
+
+
     const [agree, setAgree] = useState(false)
     const [
         createUserWithEmailAndPassword,
@@ -39,7 +42,7 @@ const SignUp = () => {
                 toast(" please wait creating user & sending email verification")
                 await createUserWithEmailAndPassword(email, password)
                 await updateProfile({ displayName: name });
-                alert("profile updated")
+
             }
             else {
                 toast("password did'nt match")
@@ -54,8 +57,12 @@ const SignUp = () => {
 
     }
 
+
+
     if (user || user1) {
+        alert("profile updated")
         navigate('/home')
+
     }
     if (loading || loading1 || updating) {
         return <Loading></Loading>
@@ -119,6 +126,8 @@ const SignUp = () => {
                 className='google-btn ' >
                 <img className='me-2 ' style={{ width: "30px", height: "30px" }} src={googleLogo} alt="" />
                 Sign In with Google</button>
+
+
             <ToastContainer />
         </div>
     );

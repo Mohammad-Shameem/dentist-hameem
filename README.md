@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Dentist Hameem
+
+# check out the project 
+project link:- https://dentist-hameem.web.app/
+
+# project summery
+* This site is created based on an Independent provieder lifestyl,thoughts and word
+* This site is build with React
+* This site is responsive by css and css frameword Bootstrap
+* This is is totally Interactive
+* This is site is Authenticate by Firebase hooks. Authenticate user with email and with google provide.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
