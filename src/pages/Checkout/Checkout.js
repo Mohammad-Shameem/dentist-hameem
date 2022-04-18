@@ -11,7 +11,6 @@ import skrill from '../../images/payment-logo/skrill.jpg'
 import visa from '../../images/payment-logo/visa.jpg'
 import nogod from '../../images/payment-logo/nogod.jpg'
 import './Checkout.css'
-/* */
 
 const Checkout = () => {
     const navigate = useNavigate();
