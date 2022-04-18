@@ -1,0 +1,27 @@
+.line-1 {
+    height: 23px;
+    background-color: #FFFF;
+    width: 2px;
+    margin-top: 10px;
+    margin-right: 2px;
+    margin-left: 4px;
+}
+
+.line-2 {
+    height: 23px;
+    background-color: #FFFF;
+    width: 2px;
+    margin-top: 10px;
+    margin-right: 2px;
+    margin-left: 4px;
+}
+
+.signout-button {
+    border: none;
+    color: black;
+    border: 3px solid #0B0B45;
+    border-radius: 3px;
+    padding: 0px 15px;
+    margin: 0 8px;
+    font-weight: 600;
+}

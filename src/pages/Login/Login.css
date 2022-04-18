@@ -1,0 +1,10 @@
+.login-form {
+    width: 50%;
+    margin: 30px auto;
+    height: 100vh;
+
+}
+
+.reset-link {
+    cursor: pointer;
+}

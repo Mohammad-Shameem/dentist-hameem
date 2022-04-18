@@ -1,0 +1,18 @@
+.checkout {
+    height: 180vh;
+}
+
+.payment-area img {
+    width: 200px;
+    height: 100px;
+    /* border: 2px solid #0B0B45; */
+    box-shadow: 8px 10px 10px 5px #0B0B45;
+}
+
+.payment-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+    width: 80%;
+    margin: 50px auto;
+}

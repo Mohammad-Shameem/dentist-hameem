@@ -1,0 +1,36 @@
+.signup-form {
+    margin-top: 30px;
+    height: 110vh;
+
+}
+
+.signup-line1 {
+    width: 50%;
+    background-color: gray;
+    height: 1px;
+}
+
+.signup-line2 {
+    width: 50%;
+    background-color: gray;
+    height: 1px;
+}
+
+.google-btn {
+    border: none;
+    border-radius: 5px;
+    color: #FFFF;
+    background-color: #0B0B45;
+    padding: 8px 10px;
+    font-weight: 600;
+
+}
+
+.submit-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #0B0B45;
+    color: #FFFF;
+    font-weight: 600;
+    padding: 10px 0;
+}

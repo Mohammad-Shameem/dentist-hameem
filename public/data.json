@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Braces Treatement",
+        "price": "$80",
+        "img": "https://img.freepik.com/free-vector/dental-braces-abstract-concept-vector-illustration-dental-procedure-braces-correction-method-crowded-teeth-treatment-orthodontic-problem-teeth-aligner-retainer-bracket-abstract-metaphor_335657-1525.jpg?w=2000",
+        "description": "What is orthodontic treatment? Orthodontic treatment is a way of straightening or moving teeth, to improve the appearance of the teeth and how they work. It can also help to look after the long-term health of your teeth, gums and jaw joints, by spreading the biting pressure over all your teeth."
+    },
+    {
+        "id": 2,
+        "name": "Dental Filling Treatment",
+        "price": "$90",
+        "img": "https://img.freepik.com/free-vector/flat-dental-care-concept-with-teeth_23-2148984350.jpg?w=2000",
+        "description": "Tooth decay is damage to a tooth that can happen when harmful bacteria in your mouth make acids that attack the tooth enamel. This can lead to a small hole in a tooth, called a cavity. More severe decay can cause a large hole or even destruction of the entire tooth. If tooth decay is not treated, it can cause pain, infection, and even tooth loss."
+    },
+    {
+        "id": 3,
+        "name": "Dental Implants Treatmnet",
+        "price": "$85",
+        "img": "https://png.pngtree.com/png-vector/20220120/ourmid/pngtree-dental-implant-structure-png-image_4352401.png",
+        "description": "A dental implant is a metal post that replaces the root portion of a missing tooth. An artificial tooth (crown) is placed on an extension of the post (abutment) on the dental implant, giving you the look of a real tooth."
+    },
+    {
+        "id": 4,
+        "name": "periodontology Treatement",
+        "price": "$100",
+        "img": "https://i.ytimg.com/vi/OZhXrFY4HoA/maxresdefault.jpg",
+        "description": "Periodontics is the dental specialty focusing exclusively in the inflammatory disease that destroys the gums and other supporting structures around the teeth. A periodontist is a dentist who specializes in the prevention, diagnosis, and treatment of periodontal, or disease, and in the placement of dental implants."
+    },
+    {
+        "id": 5,
+        "name": "Cosmetic Whitening",
+        "price": "$150",
+        "img": "https://www.pleasantdental.net/wp-content/uploads/teeth-2001.jpg",
+        "description": "Tooth whitening (or bleaching) is a simple, non-invasive dental treatment used to change the color of natural tooth enamel and is an ideal way to enhance the beauty of your smile."
+    },
+    {
+        "id": 6,
+        "name": "Dental Surgery",
+        "price": "$180",
+        "img": "https://img.freepik.com/free-vector/stomatology-concept-dentist-cleaning-teeth-medical-dental-surgery-doctor-brushing-caries-treatment-dentistry-care-illustration-dentist-wash-tooth-medical-dental_53562-12471.jpg?w=740",
+        "description": "Oral surgery is a broad term for any operation performed on your teeth, gums, jaw or surrounding oral and facial structures. It includes a wide range of procedures, including teeth extractions, dental bone grafts, periodontal (gum) grafts and corrective jaw surgery."
+    }
+]

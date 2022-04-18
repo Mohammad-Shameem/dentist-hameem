@@ -1,0 +1,12 @@
+.blogs {
+    height: 120vh;
+}
+
+.questions-line {
+    width: 15%;
+
+    background-color: #0B0B45;
+    height: 2px;
+    margin-bottom: 25px;
+
+}
